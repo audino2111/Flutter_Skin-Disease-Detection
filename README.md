@@ -8,3 +8,6 @@ Maka dari itu ini adalah pertama kali saya upload ke dalam repo cloud github
 Baca README terlebih dahulu!
 Karena file projek tidak sepenuhnya dapat diupload ke dalam git.
 Maka dari itu bisa anda download melalui gdrive
+Sebelum mendownload harap tonton terlebih dahulu video demo aplikasi
+
+Terimakasih
