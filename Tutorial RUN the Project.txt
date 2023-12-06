@@ -1,0 +1,27 @@
+How To RUN!?
+
+1. Open the "API Web Server.zip" file and extract the "atprg" folder to C:\xampp\htdocs directory. This action will place the "atprg" folder in the correct location to be accessed by the XAMPP web server.
+
+2. Once extracted, open the "atprg" folder and import the "sp_kulit.sql" file into the PhpMyAdmin database. This step will create the table structure and import the necessary data into the database.
+
+3. Next, open a browser and type 'http://localhost/atrpg/index.php/api/Penyakit'. If successful, it will display the disease data as stored in the database. This step is to ensure that the API is running correctly and able to access the data.
+
+4. After the API is successfully running, extract the "Flutter-Skined-master FIX v2 Localhost.zip" file. This step will generate the "Flutter-Skined-master" folder containing the code and resources for the Flutter application.
+
+5. Open Visual Studio Code and open the "Flutter-Skined-master" folder within the "Flutter-Skined-master FIX v2 Localhost" folder. Then, open the "loading_page.dart" file for editing. This step ensures that you are working with the correct Flutter project and opens the file to be edited.
+
+6. In the "loading_page.dart" code, on line 53, there is the following code: Uri.parse("http://192.168.19.57/atrpg/index.php/api/Penyakit"). You need to change the IP address mentioned to match the IP of your laptop obtained from the Wi-Fi network you are connected to. This is necessary to establish a connection between the Flutter application and the previously running web server API.
+
+   Note that every time you want to run the application, make sure that the IP mentioned on line 53 of the "loading_page.dart" file is always updated to match your laptop's IP.
+
+7. After that, run the application using an Android emulator on your laptop or use your own Android phone that has been debugged and connected to the laptop via a data cable. This step will start the Flutter application and test the connection between the application and the web server API.
+
+8. Finally, perform testing by capturing images and viewing the results. If everything is working correctly, the captured image will produce the expected result or response from the API. This will ensure that the application can interact with the API correctly.
+
+To check your laptop's IP address, follow these steps:
+- Press the "Win" + "R" keys simultaneously on your keyboard.
+- Type "cmd" (without the quotation marks) and press Enter. This will open the Command Prompt.
+- In the Command Prompt, type "ipconfig" and press Enter.
+- You will see network information, including your laptop's IP address. Look for the section that lists the IPv4 address to find your laptop's IP.
+
+Please note that this explanation assumes you have basic knowledge of using XAMPP, PhpMyAdmin, Flutter, and Visual Studio Code.
